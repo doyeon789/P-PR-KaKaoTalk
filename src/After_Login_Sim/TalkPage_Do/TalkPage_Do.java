@@ -171,7 +171,7 @@ public class TalkPage_Do {
         JLabel Talk_Background_me = new JLabel();
         Talk_Background_me.setOpaque(false);
         Talk_Background_me.setBounds(0, 0, 379, 639);
-        ImageIcon Talk_B_meI = new ImageIcon("image/TalkPage/TalkPage_Do.png");
+        ImageIcon Talk_B_meI = new ImageIcon("image/After_Login_img/Sim/TalkPage/TalkPage_Do.png");
         Image Talk_B_me_img = Talk_B_meI.getImage();
         Image Talk_B_me_logo = Talk_B_me_img.getScaledInstance(379, 639, Image.SCALE_SMOOTH);
         Talk_Background_me.setIcon(new ImageIcon(Talk_B_me_logo));
