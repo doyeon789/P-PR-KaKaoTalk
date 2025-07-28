@@ -421,9 +421,6 @@ public class SignUpPage extends JFrame {
 
                     dispose();
                 }
-                System.out.println(passwordText2.getPassword());
-                System.out.println(passwordReInputText2.getPassword());
-
                 repaint();
             }
         });
@@ -489,7 +486,6 @@ public class SignUpPage extends JFrame {
             // 메일 전송
             Transport.send(message);
             System.out.println("Success Message Send");
-            System.out.println(emailSendNum);
 
         } catch (MessagingException e) {
             e.printStackTrace();
@@ -602,7 +598,6 @@ class TransparentGrayFrame extends JFrame {
         this.getContentPane().setBackground(Color.white);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        System.out.println("fjeiojfeifieoi");
         // 창의 크기 설정
         this.setSize(2000, 900);
 

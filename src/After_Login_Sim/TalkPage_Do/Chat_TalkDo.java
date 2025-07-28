@@ -237,6 +237,8 @@ public class Chat_TalkDo {
         Chat_K.setLayout(null); // null 레이아웃 유지
         Chat_K.setPreferredSize(new Dimension(Do_STR.getPreferredSize().width + 25, 40)); // 적절한 크기 설정
 
+       //동작 잘됨
+
         JLabel White = new JLabel();
         White.setOpaque(true);
         White.setBackground(new Color(255, 255, 255));
@@ -315,6 +317,8 @@ public class Chat_TalkDo {
     }
 
     private static JLabel Make_Background_and_Chat(String chat_str) {
+
+
 
         JLabel Chat_K = new JLabel();
         Chat_K.setOpaque(false);

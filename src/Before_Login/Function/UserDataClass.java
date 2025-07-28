@@ -26,7 +26,6 @@ public class UserDataClass {
 	public static HashMap<String, String> userIdPw = new HashMap<String, String>();
 	
 	public UserDataClass(String user) throws IOException {
-		System.out.println(user);
 		
 		File file = new File(filePath); // File객체 생성
 		if (!file.exists()) { // 파일이 존재하지 않으면
@@ -80,8 +79,6 @@ public class UserDataClass {
 				continue;
 			}else if (userStr.charAt(i) == '$') {
 				userPw = tempIdPw;
-				System.out.println(userPw);
-				System.out.println(userId);
 				tempIdPw = "";
 				
 				userIdPw.put(userId, userPw);

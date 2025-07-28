@@ -171,8 +171,7 @@ public class LoginPage extends JLayeredPane {
 				} else {
 					passwordCount++;
 				}
-				
-				System.out.println(passwordCount);
+
 				if (passwordCount >= 1) {
 					visibleEyeLabel.setVisible(true);
 				} else {

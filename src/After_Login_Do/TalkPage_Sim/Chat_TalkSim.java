@@ -235,8 +235,7 @@ public class Chat_TalkSim {
         Chat_K.setOpaque(false);
         Chat_K.setLayout(null); // null 레이아웃 유지
         Chat_K.setPreferredSize(new Dimension(SIM_STR.getPreferredSize().width + 25, 40)); // 적절한 크기 설정
-
-
+        
 
         JLabel White = new JLabel();
         White.setOpaque(true);
@@ -249,7 +248,7 @@ public class Chat_TalkSim {
         JLabel LEFT_UP = new JLabel();
         LEFT_UP.setOpaque(false);
         LEFT_UP.setBounds(0, 0, 10, 8);
-        ImageIcon LEFT_UPI = new ImageIcon("image/TalkPage/Sim/chat/left/leftup.png");
+        ImageIcon LEFT_UPI = new ImageIcon("image/After_Login_img/Sim/TalkPage/Do/chat/left/leftup.png");
         Image LEFT_UP_img = LEFT_UPI.getImage();
         Image LEFT_UP_logo = LEFT_UP_img.getScaledInstance(10, 8, Image.SCALE_SMOOTH);
         LEFT_UP.setIcon(new ImageIcon(LEFT_UP_logo));
@@ -257,7 +256,7 @@ public class Chat_TalkSim {
         JLabel LEFT_DOWN = new JLabel();
         LEFT_DOWN.setOpaque(false);
         LEFT_DOWN.setBounds(0, 16, 10, 8);
-        ImageIcon LEFT_DOWNI = new ImageIcon("image/TalkPage/Sim/chat/left/leftdown.png");
+        ImageIcon LEFT_DOWNI = new ImageIcon("image/After_Login_img/Sim/TalkPage/Do/chat/left/leftdown.png");
         Image LEFT_DOWN_img = LEFT_DOWNI.getImage();
         Image LEFT_DOWN_logo = LEFT_DOWN_img.getScaledInstance(10, 8, Image.SCALE_SMOOTH);
         LEFT_DOWN.setIcon(new ImageIcon(LEFT_DOWN_logo));
@@ -265,26 +264,26 @@ public class Chat_TalkSim {
         JLabel RIGHT_DOWN = new JLabel();
         RIGHT_DOWN.setOpaque(false);
         RIGHT_DOWN.setBounds(10 + SIM_STR.getPreferredSize().width, 17, 16, 7);
-        ImageIcon RIGHT_DOWNI = new ImageIcon("image/TalkPage/Sim/chat/right/rightdown.png");
+        ImageIcon RIGHT_DOWNI = new ImageIcon("image/After_Login_img/Sim/TalkPage/Do/chat/right/rightdown.png");
         Image RIGHT_DOWN_img = RIGHT_DOWNI.getImage();
         Image RIGHT_DOWN_logo = RIGHT_DOWN_img.getScaledInstance(16, 7, Image.SCALE_SMOOTH);
         RIGHT_DOWN.setIcon(new ImageIcon(RIGHT_DOWN_logo));
 
-        ImageIcon LEFT_I = new ImageIcon("image/TalkPage/Sim/chat/left/left.png");
+        ImageIcon LEFT_I = new ImageIcon("image/After_Login_img/Sim/TalkPage/Do/chat/left/left.png");
         JLabel LEFT = new JLabel(LEFT_I);
         LEFT.setBounds(0, 8, 10, 10);
 
         JLabel RIGHT_UP = new JLabel();
         RIGHT_UP.setOpaque(false);
         RIGHT_UP.setBounds(10 + SIM_STR.getPreferredSize().width, 0, 16, 8);
-        ImageIcon RIGHT_UPI = new ImageIcon("image/TalkPage/Sim/chat/right/rightup1.png");
+        ImageIcon RIGHT_UPI = new ImageIcon("image/After_Login_img/Sim/TalkPage/Do/chat/right/rightup1.png");
         Image RIGHT_UP_img = RIGHT_UPI.getImage();
         Image RIGHT_UP_logo = RIGHT_UP_img.getScaledInstance(16, 8, Image.SCALE_SMOOTH);
         RIGHT_UP.setIcon(new ImageIcon(RIGHT_UP_logo));
 
         JLabel RIGHT = new JLabel();
         RIGHT.setOpaque(false);
-        ImageIcon RIGHTI = new ImageIcon("image/TalkPage/Sim/chat/right/right1.png");
+        ImageIcon RIGHTI = new ImageIcon("image/After_Login_img/Sim/TalkPage/Do/chat/right/right1.png");
         Image RIGHT_img = RIGHTI.getImage();
         Image RIGHT_logo = RIGHT_img.getScaledInstance(16, 13, Image.SCALE_SMOOTH);
         RIGHT.setIcon(new ImageIcon(RIGHT_logo));
@@ -292,13 +291,16 @@ public class Chat_TalkSim {
 
         JLabel UP = new JLabel();
         UP.setOpaque(false);
-        ImageIcon UPI = new ImageIcon("image/TalkPage/Sim/chat/up_down/up.png");
+        ImageIcon UPI = new ImageIcon("image/After_Login_img/Sim/TalkPage/Do/chat/up_down/up.png");
         Image UP_img = UPI.getImage();
         Image UP_logo = UP_img.getScaledInstance(SIM_STR.getPreferredSize().width, 13, Image.SCALE_SMOOTH);
         UP.setIcon(new ImageIcon(UP_logo));
         UP.setBounds(10, 0, SIM_STR.getPreferredSize().width, 13);
 
-        // 구성 요소 추가
+
+
+
+// 구성 요소 추가
         Chat_K.add(SIM_STR);
         Chat_K.add(UP);
         Chat_K.add(LEFT);
@@ -308,6 +310,12 @@ public class Chat_TalkSim {
         Chat_K.add(LEFT_DOWN);
         Chat_K.add(LEFT_UP);
         Chat_K.add(White);
+
+
+
+
+
+
 
         // Layout 확인용 Border
         Chat_K.setBorder(BorderFactory.createEmptyBorder());

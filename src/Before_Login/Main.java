@@ -112,10 +112,7 @@ public class Main {
         while ((userCh = file_reader.read()) != -1) {
             UserDataClass.userStr += (char) userCh;
         }
-        System.out.println(UserDataClass.userStr);
         UserDataClass.getIdPw(UserDataClass.userStr);
-
-        System.out.println(UserDataClass.userStr);
 
         file_reader.close();
 
