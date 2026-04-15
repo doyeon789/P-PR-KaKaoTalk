@@ -449,8 +449,8 @@ public class SignUpPage extends JFrame {
 
     public static void naverMailSend() {
         String host = "smtp.naver.com";
-        String user = "ehddud363373@naver.com";
-        String password = "363373ehddud";
+        String user = "...";
+        String password = "...";
 
         // SMTP 서버 정보를 설정한다.
         Properties props = new Properties();
